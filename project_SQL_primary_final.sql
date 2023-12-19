@@ -1,3 +1,7 @@
+
+-- porovnání dostupnosti potravin na základě průměrných příjmů za určité časové období --
+
+
 -- vytvoření dočasní tabulky -- průměrné mzdy za odvětví -- 
 
 CREATE TABLE t_average_payroll_per_industry AS 
