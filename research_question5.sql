@@ -50,7 +50,7 @@ SELECT
 	gdp.following_year,
 	gdp.GDP_in_following_year,
 	gdp.annual_growth AS GDP_annual_growth,
-	gdp.increase_or_decrease,
+	gdp.increase_or_decrease AS innrease_or_decrease_GDP,
 	fp.annual_growth_food,
 	fp.annual_growth_payroll 
 FROM t_gdp_growth gdp

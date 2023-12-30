@@ -36,7 +36,7 @@ CREATE TABLE t_average_price_food_per_year AS
 	GROUP BY `year` )
 ;
 
--- nárust/pokles cen potravin (vetky potraviny dohromady) od roku 2006 - 2018--
+-- nárust/pokles cen potravin (všetky potraviny dohromady) od roku 2006 - 2018--
 
 CREATE TABLE annual_growth_foodprice AS 
 	(SELECT 
