@@ -1,6 +1,6 @@
  -- 4.Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %) --
  
--- vývoj mezd --
+-- vývoj mezd (přepočtené na plný úvazek) --
  
  CREATE TABLE t_average_payroll_per_year AS 
 	(SELECT      
@@ -11,7 +11,7 @@
 	group BY payroll_year
 );
  
- -- mezoroční nárust/pokles mezd od roku 2000 - 2020 --
+ -- meziroční nárust/pokles mezd od roku 2000 - 2020 --
 
 CREATE TABLE annual_growth_payroll AS 
 	(SELECT 
@@ -26,7 +26,7 @@ CREATE TABLE annual_growth_payroll AS
 	GROUP BY ap.payroll_year 
 );
 
--- prumerna cena potravin za jednotlivé roky -- 
+-- průmerna cena potravin za jednotlivé roky -- 
 
 CREATE TABLE t_average_price_food_per_year AS 
 	(SELECT 
@@ -36,7 +36,7 @@ CREATE TABLE t_average_price_food_per_year AS
 	GROUP BY `year` )
 ;
 
--- nárust/pokles cen potravin (vsetky potraviny dohromady) od roku 2006 - 2018--
+-- nárust/pokles cen potravin (vetky potraviny dohromady) od roku 2006 - 2018--
 
 CREATE TABLE annual_growth_foodprice AS 
 	(SELECT 
