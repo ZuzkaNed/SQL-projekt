@@ -2,7 +2,7 @@
 -- porovnání dostupnosti potravin na základě průměrných příjmů za určité časové období --
 
 
--- vytvoření dočasní tabulky -- průměrné mzdy za odvětví -- 
+-- vytvoření dočasné tabulky -- průměrné mzdy (přepočtené na plný úvazek) za odvětví -- 
 
 CREATE TABLE t_average_payroll_per_industry AS 
 	(SELECT 
@@ -17,7 +17,7 @@ CREATE TABLE t_average_payroll_per_industry AS
 ;
 
 
--- vytvoření dočasní tabulky -- průměrné ceny za jednotlivé produkty
+-- vytvoření dočasné tabulky -- průměrné ceny za jednotlivé produkty
 
 CREATE TABLE t_average_price_food_category AS 
 	(SELECT 
