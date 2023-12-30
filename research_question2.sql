@@ -15,21 +15,8 @@ CREATE TABLE t_average_price_milk_bread_2006_2018
 	FROM czechia_price cp
 	JOIN czechia_price_category cpc
 		ON cp.category_code = cpc.code
-	WHERE cp.category_code = 111301 AND YEAR(cp.date_from) IN (2006,2018)
-	GROUP BY reference_period
-	UNION ALL 
-	SELECT 	
-  	 	YEAR(cp.date_from) AS reference_period,
-		cp.category_code,
-		cpc.name,
-		round(avg(value),2) AS average_price_in_czk,
-		cpc.price_value,
-		cpc.price_unit	
-	FROM czechia_price cp
-	JOIN czechia_price_category cpc
-		ON cp.category_code = cpc.code
-	WHERE cp.category_code = 114201 AND YEAR(cp.date_from) IN (2006,2018)
-	GROUP BY reference_period
+	WHERE cp.category_code IN (111301,114201) AND YEAR(cp.date_from) IN (2006,2018) 
+	GROUP BY reference_period, cp.category_code 
 	ORDER BY reference_period)
 ;
 
