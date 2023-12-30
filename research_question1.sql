@@ -1,6 +1,6 @@
 -- 1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají? --
 
--- průměrná mzda (přepočtená na plný uvazek) za každé odvětví od roku 2000 do 2021 --
+-- průměrná mzda (přepočtená na plný úvazek) za každé odvětví od roku 2000 do 2021 --
 
 CREATE TABLE t_average_payroll_industry AS 
 	(SELECT 
