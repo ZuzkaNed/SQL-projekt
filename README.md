@@ -15,16 +15,21 @@
  The analysis is focused mainly on the development of prices and incomes in the reference period (data available from 2006 to 2018) in Czech Republic. Requested data were filtered from database accordingly. Furthermore, "The year-over-year growth" formula was used in the analysis to find out growth or decrease of food prices, incomes and GDP in Czech republic. This formila shows the percentage change in an annualized metric over two comparable periods.  
 # Research Questions and Answers
 ## Research Question 1
- - Are average wages increasing in all industries over the years? Or are there industries in Czech Republic where average wages are decreasing? 
+ - Are average wages increasing in all industries over the years? Or are there industries in Czech Republic where 
+average wages are decreasing? 
+	- according to the data obtained, in all industries there was a growing trend in incomes. 
 ## Research Question 2
  - How many liters of milk and kilograms of bread can be bought in the first and last comparable periods based on available data of prices and incomes? 
+	- data availble in research_question2.sql file
 ## Research Question 3
  - Which food category has the lowest percentage year-on-year increase in price? 
+	- white wine
 ## Research Question 4
  - Is there a year in which the year-on-year increase in food prices was significantly higher than wage growth (greater than 10%)? 
+	- in the reference periods there was no year where year-on-year increase in food prices was significantly higher (greater than 10%)  than wage growth
 ## Research Question 5
  - Does the level of GDP in Czech Republic affect changes in incomes and food prices in the same or follwoing year?
-
+	- I have assigned the growth in GDP that was greater than 10 000 000 000 as high increase. The highest growth in food prices we can see in 2017 and in payroll in 2007. However there was also a drop in food prices in 2015 and a small growth in incomes in the same year so according to the obtained data we are not able to find out if high GPD affects the food prices and incomes in same or following year. 
 
 # Conclusion 
  
