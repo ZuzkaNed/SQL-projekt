@@ -11,10 +11,8 @@
  - primary table shows incomes in the industries in Czech Republic through the years - 2006 - 2018 together with food prices in the same period, last column shows what amount of the product people from different indstries could afford during this reference period
  - secondary table shows european countries and their GDP, GINI coefficient and popuplation in the same reference period (2006 - 2018), however the table is not complete as siginificant amount of values (GDP and GINI coefficient) are null values
 
-# Work process 
- - 
-
-
+# Work progress 
+ The analysis is focused mainly on the development of prices and incomes in the reference period (data available from 2006 to 2018) in Czech Republic. Requested data were filtered from database accordingly. Furthermore, "The year-over-year growth" formula was used in the analysis to find out growth or decrease of food prices, incomes and GDP in Czech republic. This formila shows the percentage change in an annualized metric over two comparable periods.  
 # Research Questions and Answers
 ## Research Question 1
  - Are average wages increasing in all industries over the years? Or are there industries in Czech Republic where average wages are decreasing? 
