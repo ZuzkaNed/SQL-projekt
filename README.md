@@ -32,6 +32,6 @@ average incomes are decreasing?
  - Does the level of GDP in Czech Republic affect changes in incomes and food prices in the same or follwoing year?
 	- I have assigned the growth in GDP greater than 10 000 000 000 as high increase. The highest growth in food prices we can see in 2017 and in payroll in 2007. However there was also a drop in food prices in 2015 and a small growth in incomes in the same year so according to the obtained data we are not able to find out if high GPD affects the food prices and incomes in same or following year. 
 
-# Conclusion 
+
  
 
