@@ -7,10 +7,13 @@
 # Assingment
  Main goal of the project was to compare the availability of basic food products based on average incomes in Czech Republic over a period of time. Further, another data of GDP, GINI coefficient and population of another european countries were needed. In addition, there were 5 research questions, that needed to be answered. (see below)
 
-# Data used
-
+# Data description
+ - primary table shows incomes in the industries in Czech Republic through the years - 2006 - 2018 together with food prices in the same period, last column shows what amount of the product people from different indstries could afford during this reference period
+ - secondary table shows european countries and their GDP, GINI coefficient and popuplation in the same reference period (2006 - 2018), however the table is not complete as siginificant amount of values (GDP and GINI coefficient) are null values
 
 # Work process 
+ - 
+
 
 # Research Questions and Answers
 ## Research Question 1
