@@ -1,3 +1,5 @@
+-- zuzkanedvedova_68642 --
+
 
 -- porovnání dostupnosti potravin na základě průměrných příjmů za určité časové období --
 
